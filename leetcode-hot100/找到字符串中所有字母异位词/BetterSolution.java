@@ -9,10 +9,9 @@ import java.util.List;
  * @date 2023/10/24
  */
 
-public class BetterSolution extends Solution{
+public class BetterSolution{
     private final static char A = 'a';
 
-    @Override
     public List<Integer> findAnagrams(String s, String p) {
         // 如果s的长度小于p的长度则无解
         if(s.length() < p.length()){
